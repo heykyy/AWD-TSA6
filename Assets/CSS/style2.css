@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://imgs.search.brave.com/_fdOlFrBwUdcYx22Kw6RGgl7qxwXKCmydczkqZHvcSI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bWtnaWZzLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/MS9HSUYtS2lydWEu/Z2lm.gif);
+    background-size: 100%;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+  }
+  
+  .confirmation-container {
+    background-color: #f1cce8; 
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 80%; 
+    max-width: 600px; 
+    box-sizing: border-box; 
+    margin: auto; 
+  }
+  
+  .confirmation-container h1 {
+    color: black; 
+    text-align: center; 
+    font-size: 24px; 
+    margin-bottom: 16px; 
+  }
+  
+  .confirmation-container p {
+    background-color: #ffffff; 
+    color: #333333; 
+    padding: 8px 16px; 
+    border-radius: 10px; 
+    margin-bottom: 8px; 
+    font-size: 16px; 
+  }
+  
+  

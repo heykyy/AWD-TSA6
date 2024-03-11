@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TSA6: Login Form</title>
+<link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+<div class="form-container">
+    <div class="form-btn">
+        <span class= "l" onclick="login()">Log In</span>
+        <span class= "s" onclick="register()">Sign Up</span>
+        <hr id="Indicator">
+    </div>
+
+    <form id="LoginForm">
+        <input type="text" placeholder="Enter email or username">
+        <input type="password" placeholder="Enter password">
+        <button type="submit" class="btn">Login</button>
+        <a class ="d" onclick="register()">Forgotten account</a>
+        <hr class="h">
+        <div class="social-icons">
+            <a href="https://myaccount.google.com/" class="social-btn">
+                <img src="https://imgs.search.brave.com/Hw0fgPqodZAvLUkDoHx6Qgvz7s1GR-tAFikkqKMoed4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4x/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvZ29vZ2xlLXMt/bG9nby8xNTAvR29v/Z2xlX0ljb25zLTA5/LTEyOC5wbmc" alt="Google" class="social-icon">
+                Sign In With Google
+            </a>
+            <a href="https://ph.linkedin.com/" class="social-btn">
+                <img src="https://imgs.search.brave.com/1Dr1j7ktU-zx5F5aU1ECXD-_1wiB7S-dvfwL4X7zRMk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvcG9wdWxhci1z/b2NpYWwtbWVkaWEt/ZmxhdC80OC9Qb3B1/bGFyX1NvY2lhbF9N/ZWRpYS0yMi0xMjgu/cG5n" alt="LinkedIn" class="social-icon">
+                Sign In With LinkedIn
+            </a>
+            <a href="https://account.microsoft.com/account/manage-my-account" class="social-btn">
+                <img src="https://imgs.search.brave.com/lqxiOMP8BKykSProUaXhAzNJDPlmCcJcmVeKXTtgxjg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvbWljcm9zb2Z0/L21pY3Jvc29mdF9Q/TkcxMy5wbmc" alt="Microsoft" class="social-icon">
+                Sign In With Microsoft
+            </a>
+        </div>
+    </form>
+    
+    <form id="RegForm" style="display:none">
+    <p class="x">Fill in this form to create an account!</p>
+    <hr class="j">
+    <input type="text" placeholder="First Name (Username)" name="firstName">
+    <input type="text" placeholder="Last Name" name="lastName">
+    <input type="email" placeholder="Email" name="email">
+    <input type="password" placeholder="Password" name="password">
+    <input type="password" placeholder="Confirm Password" name="confirmPassword">
+        <div class="checkbox-container">
+            <input id="termsCheckbox" type="checkbox" class="checkbox" />
+            <label for="termsCheckbox" class="checkbox-label">I accept the <a href="https://policies.google.com/terms">Terms of Use</a> & <a href="https://policies.google.com/privacy">Privacy Policy</a></label>
+        </div>
+        <button type="submit" class="btn">Sign Up</button> 
+    </form>
+</div>
+<script src="./Assets/JS/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
